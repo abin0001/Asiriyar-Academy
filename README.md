@@ -36,12 +36,14 @@ Ensure you have the following software installed:
 ### Installation
 
 1. **Clone the Repository:**
+
    ```bash
    git clone https://github.com/your-username/aasiriyar-academy.git
    cd aasiriyar-academy
    ```
 
 2. **Install Dependencies:**
+
    ```bash
    npm install
    # or
@@ -49,6 +51,7 @@ Ensure you have the following software installed:
    ```
 
 3. **Start the Development Server:**
+
    ```bash
    npm start
    # or
@@ -63,24 +66,29 @@ Ensure you have the following software installed:
 We welcome contributions to improve the Aasiriyar Academy platform. Please follow these steps to contribute:
 
 1. **Fork the Repository:**
+
    - Click the "Fork" button at the top right corner of this repository page.
 
 2. **Clone Your Fork:**
+
    - Clone your forked repository to your local machine using the following command:
      ```bash
      git clone https://github.com/your-username/aasiriyar-academy.git
      ```
 
 3. **Create a New Branch:**
+
    - Create a new branch for your feature or bug fix:
      ```bash
      git checkout -b feature/your-feature-name
      ```
 
 4. **Make Changes:**
+
    - Make the necessary changes in your local repository.
 
 5. **Commit and Push:**
+
    - Commit your changes with a meaningful commit message:
      ```bash
      git commit -m "Add feature: your feature description"
