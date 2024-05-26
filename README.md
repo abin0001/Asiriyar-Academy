@@ -16,51 +16,6 @@ Aasiriyar Academy is an educational platform designed to enhance learning experi
 
 Aasiriyar Academy aims to provide an intuitive and engaging learning platform for students and educators. The platform includes features such as:
 
-- **Course Management:** Instructors can create, manage, and update courses.
-- **Student Enrollment:** Students can enroll in courses, track their progress, and access learning materials.
-- **Interactive Lessons:** Lessons include multimedia content, quizzes, and interactive exercises to enhance learning.
-- **Progress Tracking:** Students and instructors can track progress and performance through dashboards and reports.
-
-## Getting Started
-
-Follow these instructions to set up the project on your local machine for development and testing purposes.
-
-### Prerequisites
-
-Ensure you have the following software installed:
-
-- **Git:** Version control system to clone the repository.
-- **Node.js:** JavaScript runtime environment.
-- **npm or yarn:** Package manager for Node.js dependencies.
-
-### Installation
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/your-username/aasiriyar-academy.git
-   cd aasiriyar-academy
-   ```
-
-2. **Install Dependencies:**
-
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
-
-3. **Start the Development Server:**
-
-   ```bash
-   npm start
-   # or
-   yarn start
-   ```
-
-4. **Access the Application:**
-   Open your web browser and navigate to `http://localhost:3000` to see the application running.
-
 ## Contribution Guidelines
 
 We welcome contributions to improve the Aasiriyar Academy platform. Please follow these steps to contribute:
