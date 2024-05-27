@@ -1,5 +1,6 @@
 import React from 'react'
-import logo from '../assets/logo.png'
+import courseimg from '../assets/courseimg.png'
+
 
 const Course = () => {
   return (

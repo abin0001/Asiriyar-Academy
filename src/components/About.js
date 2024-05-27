@@ -1,6 +1,4 @@
 import React from 'react'
-import logo from '../assets/logo.png'
-import about from '../assets/about.png'
 
 const About = () => {
   return (
