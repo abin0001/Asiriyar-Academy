@@ -27,7 +27,7 @@ const Course = () => {
           <div 
             key={course.id} 
             className="relative group overflow-hidden rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105">
-            <img src={courseImage} alt={course.title} className="w-full h-100 mb-10 object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-300" />
+            <img src={courseImage} alt={course.title} className="w-full h-100 mb-10 object-cover opacity-80 group-hover:opacity-10 transition-opacity duration-300" />
             <div className="absolute inset-0 flex flex-col justify-end p-4 bg-gradient-to-t from-black via-transparent to-transparent">
               <h3 className="text-lg font-semibold text-white">{course.title}</h3>
               <p className="text-sm text-gray-300">{course.description}</p>
