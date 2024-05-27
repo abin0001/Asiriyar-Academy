@@ -68,6 +68,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For further information or questions, please contact the project maintainers.
 
----
-
 Thank you for contributing to Aasiriyar Academy! Your efforts help create a better learning experience for everyone.
