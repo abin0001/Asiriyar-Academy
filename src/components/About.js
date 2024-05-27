@@ -28,7 +28,7 @@ const About = () => {
             </div>
           </div>
           <div className="flex-1 mt-10 md:mt-0">
-            <img src={about} alt="About Us" className="w-full h-auto rounded-full" />
+            <img src={about} alt="About Us" className="w-full h-auto" />
           </div>
         </div>
       </div>

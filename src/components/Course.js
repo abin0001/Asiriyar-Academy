@@ -40,10 +40,8 @@ const Course = () => {
         <div className="text-center mt-8">
           <button 
             onClick={() => setShowMore(true)} 
-            className="text-lg font-semibold mb-10 text-white bg-orange-500 rounded-lg px-6 py-3 hover:bg-orange-600"
-          >
-            View more
-          </button>
+            className="text-lg font-semibold mb-10 text-white bg-orange-500 rounded-lg px-6 py-3 hover:bg-orange-600">
+            View more</button>
         </div>
       )}
     </div>
