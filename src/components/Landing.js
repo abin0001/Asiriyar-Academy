@@ -28,7 +28,7 @@ const Landing = () => {
             <button className="bg-white text-orange-500 border border-orange-500 px-6 py-2 rounded-lg hover:bg-orange-50">▶ Watch</button>
           </div>
         </div>
-        <div className="relative">
+        <div className="relative mr-11">
           <img src={group} alt="Main" />
         </div>
         </main>
