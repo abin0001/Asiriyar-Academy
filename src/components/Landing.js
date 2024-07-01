@@ -1,12 +1,17 @@
-import React from 'react'
-import group from '../assets/group.png'
-import course from '../components/Course'
-import Course from '../components/Course'
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import group from '../assets/group.png';
 
 const Landing = () => {
+  const navigate = useNavigate();
+
+  const handleGetStartedClick = () => {
+    navigate('/course');
+  };
+
   return (
     <div>
-        <main className="flex flex-1 justify-between items-center p-6 bg-gray-50">
+      <main className="flex flex-1 justify-between items-center p-6 bg-gray-50">
         <div className="max-w-lg">
           <h2 className="text-orange-500 text-xl font-bold mb-2 ml-20">LEARN FROM TODAY</h2>
           <h1 className="text-4xl font-bold mb-8 mt-8 ml-20">THE BEST WAY FOR YOUR LEARNING</h1>
@@ -14,16 +19,21 @@ const Landing = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
           <div className="space-x-4">
-            <button className="bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600 ml-20">Get Started{Course}</button>
+            <button 
+              className="bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600 ml-20"
+              onClick={handleGetStartedClick}
+            >
+              Get Started
+            </button>
             <button className="bg-white text-orange-500 border border-orange-500 px-6 py-2 rounded-lg hover:bg-orange-50">▶ Watch</button>
           </div>
         </div>
         <div className="relative mr-11">
           <img src={group} alt="Main" />
         </div>
-        </main>
+      </main>
     </div>
-  )
+  );
 }
 
-export default Landing
+export default Landing;
