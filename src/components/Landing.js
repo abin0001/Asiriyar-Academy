@@ -1,5 +1,7 @@
 import React from 'react'
 import group from '../assets/group.png'
+import course from '../components/Course'
+import Course from '../components/Course'
 
 const Landing = () => {
   return (
@@ -12,7 +14,7 @@ const Landing = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
           <div className="space-x-4">
-            <button className="bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600 ml-20">Get Started</button>
+            <button className="bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600 ml-20">Get Started{Course}</button>
             <button className="bg-white text-orange-500 border border-orange-500 px-6 py-2 rounded-lg hover:bg-orange-50">▶ Watch</button>
           </div>
         </div>

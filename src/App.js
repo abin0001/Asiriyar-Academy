@@ -23,10 +23,10 @@ function App() {
           </nav>
         </header>
         <Routes>
-          <Route path="/" element={<Landing />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/course" element={<Course />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/" element={Landing} />
+          <Route path="/about" element={About} />
+          <Route path="/course" element={Course} />
+          <Route path="/contact" element={Contact } />
         </Routes>
       </div>
     </Router>
