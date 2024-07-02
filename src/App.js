@@ -4,7 +4,7 @@ import Landing from './components/Landing';
 import About from './components/About'; 
 import Course from './components/Course';
 import Contact from './components/Contact'; 
-import logo from './assets/logo.png'; // Import the logo
+import logo from './assets/logo.png'; 
 
 function App() {
   return (
